@@ -9,7 +9,7 @@
 //first time visit
 swal({
     title: "Halooo",
-    text : "Boleh ka' mampir bentar lihat-lihat",
+    text : "Have a good day!",
     confirmButtonText: "oke deh"
 });
 
@@ -40,54 +40,59 @@ function get_detail(id){
     switch (id) {
         case 1:
             item.title = 'Code for a better world [Sticker]';
-            item.desc  = 'Koding memang sulit, penuh tantangan, tapi selama agan percaya kalau ngoding punya kekuatan untuk merubah dunia jadi lebih baik, kita akan segera melihat hasilnya!';
+            item.desc  = 'Koding memang sulit, penuh tantangan, tapi selama agan percaya kalau ngoding punya kekuatan untuk merubah dunia jadi lebih baik, kita akan segera melihat hasilnya! Tersedia juga versi mini, pas untuk handphone <a href="https://www.tokopedia.com/stickerdev/code-for-a-better-world-man-mini-sticker" target="_blank"> disini </a>';
             item.image = 'code for a better world -man.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/code-for-a-better-world-man-sticker';
             break;
         case 2:
             item.title = 'Code for a better world [Sticker]';
-            item.desc  = 'Dunia koding diisi dengan sebagian besar pria! Kalau agan adalah wanita dan percaya kalau ngoding punya kekuatan untuk merubah dunia jadi lebih baik, saatnya beraksi!';
+            item.desc  = 'Dunia koding diisi dengan sebagian besar pria! Kalau aganwati adalah wanita dan percaya kalau ngoding punya kekuatan untuk merubah dunia jadi lebih baik, saatnya beraksi!';
             item.image = 'code for a better world -woman.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/code-for-a-better-world-woman-sticker';
             break;
         case 3:
             item.title = 'Deep Work [Sticker]';
             item.desc = '"Deep Work" atau bekerja dengan fokus, skill yang mahal dan langka banget. Padahal kita bisa menghasilkan sesuatu yang jauh dari level sebelumnya. Dengarkan <a href="https://sekolahkoding.com/podcast/bekerja-dengan-fokus" target="_blank"> podcastnya disini </a>';
             item.image = 'deepwork.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/deep-work-sticker';
             break;
         case 4:
             item.title = 'TextEditor + Coffe/Tea [Sticker]';
             item.desc = 'Kopi atau Teh? ngga perlu berantem, kita sediakan mug dan air panasnya, agan yang campur sendiri. Setelah itu lanjut ngoding!';
             item.image = 'terminal+mug.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/texteditor-and-mug-sticker';
             break;
         case 5:
             item.title = 'Work Hard and Be Nice [Sticker]';
             item.desc = 'Indonesia bukan hanya butuh orang pintar, tapi juga orang baik. Jadikan dua hal ini prinsip sehari-hari dan lihat keajaiban yang datang!';
             item.image = 'workhard&benice.jpg';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/work-hard-be-nice-sticker';
             break;
         case 6:
             item.title = 'Sekolah Koding! [Sticker]';
             item.desc = '❤ ❤ ❤ ❤ ❤ ❤';
             item.image = 'sekolahkoding.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/sekolahkoding-sticker';
             break;
         case 7:
             item.title = 'StickerDev [Sticker]';
             item.desc = 'Kami akan mempercantik dunia koding agan!';
             item.image = 'stickerdev.png';
-            item.link = '';
+            item.link = 'https://www.tokopedia.com/stickerdev/stickerdev-sticker';
             break;
-    case 8:
-        item.title = 'Sticker Pack #1 [Sticker]';
-        item.desc = 'Susah milih ? Bagaimana dengan satu pack langsung?';
-        item.image = 'pack1.png';
-        item.link = '';
-        break;
-        default:
-
+        case 8:
+            item.title = 'Sticker Pack #1 [Sticker]';
+            item.desc = 'Susah milih ? Bagaimana dengan satu pack langsung?';
+            item.image = 'pack1.png';
+            item.link = 'https://www.tokopedia.com/stickerdev/sticker-pack-sticker';
+            break;
+        case 9:
+            item.title = 'Sekolahkoding chest logo [T-Shirt]';
+            item.desc = 'Ke kampus atau ke kantor dengan t-shirt sekolah koding!';
+            item.image = 'tshirt-sk-chest.png';
+            item.link = 'https://www.tokopedia.com/stickerdev/kaos-sekolah-koding-kaos';
+            break;
+            default:
     }
 
     return item;

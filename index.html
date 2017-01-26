@@ -25,6 +25,7 @@
     <title>StickerDev</title>
     <meta name="description" content="Sticker untuk programmer/developer dari sekolah koding">
     <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <meta name="twitter:card" content="summary">
@@ -56,6 +57,7 @@
 
         <img src="assets/images/stickerdev.png" width="200" alt="" onClick="show_detail(7)">
         <img src="assets/images/pack1.png" width="200" alt="" onClick="show_detail(8)">
+        <img src="assets/images/tshirt-sk-chest.png" width="200" alt="" onClick="show_detail(9)">
     </section>
 
     <footer>
@@ -71,6 +73,21 @@ footer = [
 </code></pre>
         <br>
         <div id="disqus_thread"></div>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAv6liRajbm4FsfQ3ikeui70V2V1dnkkr8",
+    authDomain: "stickerdev-website.firebaseapp.com",
+    databaseURL: "https://stickerdev-website.firebaseio.com",
+    storageBucket: "stickerdev-website.appspot.com",
+    messagingSenderId: "559636554638"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <script>
 
 /**
@@ -90,7 +107,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                                
+
     </footer>
 
     <div id="disqus-box">
