@@ -46,10 +46,10 @@ section {
     align-items: center;
     align-content: space-between;
     flex-wrap: wrap;
-    img {
+    img, aside {
         display: block;
-        width: 45%;
-        margin: 0 2.5% 20px;
+        width: 30%;
+        margin: 0 1.5% 20px;
         &:hover{
             cursor: pointer;
             -webkit-animation-name: bounce;
@@ -71,6 +71,9 @@ aside {
         display: block;
         margin: 0 auto;
         text-align: center;
+        height: 300px;
+        width: 100%;
+        line-height: 300px;
     }
 }
 
@@ -1061,7 +1064,7 @@ body.stop-scrolling {
     }
 
     section {
-        img {
+        img, aside {
             width: 90%;
             margin: 5%;
         }
